@@ -90,6 +90,8 @@ k8sClientRateLimit:
   burst:
   # -- Configure the client side rate limit for the Cilium Operator
   operator:
+    tls:
+      secretsBackend: disabled
     # @schema
     # type: [null, integer]
     # @schema
