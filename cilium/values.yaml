@@ -872,7 +872,7 @@ ingressController:
     # -- Create secrets namespace for Ingress.
     create: true
     # -- Name of Ingress secret namespace.
-    name: cilium-secrets
+    name: cilium-secret
     # -- Enable secret sync, which will make sure all TLS secrets used by Ingress are synced to secretsNamespace.name.
     # If disabled, TLS secrets must be maintained externally.
     sync: true
