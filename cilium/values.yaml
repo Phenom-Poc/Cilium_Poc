@@ -2603,7 +2603,7 @@ tls:
     # -- Create secrets namespace for TLS Interception secrets.
     create: true
     # -- Name of TLS Interception secret namespace.
-    name: cilium-secrets
+    name: cilium-secret
   # -- Configures settings for synchronization of TLS Interception Secrets
   secretSync:
     # @schema
