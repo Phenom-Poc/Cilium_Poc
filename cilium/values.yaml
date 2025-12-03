@@ -2585,7 +2585,7 @@ tls:
   # Possible values:
   #   - local
   #   - k8s
-  secretsBackend: ~
+  secretsBackend: disabled
   # @schema
   # type: [null, boolean]
   # @schema  
